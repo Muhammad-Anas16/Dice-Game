@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-style: italic;
+    gap: 9em;
+}
+
+body {
+    background: linear-gradient(270deg, rgba(1, 221, 203, 0.938), rgb(53, 53, 221));
+    color: black;
+}
+
+.dise-continer {
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.dice i {
+    font-size: 8em;
+    color: #ffff;
+}
+
+button {
+    margin-top: 5em;
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 0.493);
+    color: rgb(0, 255, 21);
+    border: 5px;
+}
